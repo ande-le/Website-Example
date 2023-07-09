@@ -1,0 +1,48 @@
+.NavBar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.navButton {
+    color: white;
+    margin: 25px 100px 25px 100px;
+}
+
+.Portrait {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture, .About {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPicture {
+    margin: 100px 0px 50px 0px;
+    height: 500px;
+    width: 500px;
+}
+
+.aboutDescription {
+    padding: 0px 50px 0px 50px;
+    color: white;;
+}
+
+.AnotherSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("./media/waterbackground.jpg");
+    margin: 0px;
+}
+
